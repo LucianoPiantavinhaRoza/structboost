@@ -1,0 +1,98 @@
+.btn-primary {
+  padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+  background-color: var(--pink-10);
+  color: var(--gray-900);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.48px;
+  transition: background-color .3s ease;
+}
+
+.btn-primary.lg {
+  font-size: 1.8rem;
+  padding: 2.3rem 2.4rem 2.3rem 2.4rem;
+}
+
+.btn-primary.white {
+  background-color: var(--gray-100);
+}
+
+.btn-primary.white:hover {
+  background-color: var(--gray-900);
+  color: var(--gray-100);
+}
+
+.btn-primary:hover {
+  background-color: var(--pink-20);
+}
+
+.item-digital {
+  flex-grow: 1;
+  max-width: 38.4rem;
+}
+
+.item-digital .icon {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1.6rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.item-digital .info h6 {
+  margin-bottom: 0.8rem;
+}
+
+.item-digital .info p {
+  color: var(--gray-600);
+}
+
+.card {
+  flex-grow: 1;
+  max-width: 80rem;
+  border: 0.2rem solid var(--gray-800);
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 2.4rem;
+}
+
+.card .tag {
+  display: inline-block;
+  padding: 0.8rem 2.2rem 0.8rem 2.2rem;
+  border: 0.2rem solid var(--gray-800);
+  border-radius: 10rem;
+  background-color: rgba(255, 255, 255, 0.10);
+  color: var(--gray-100);
+  font-family: 'Sora', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 1.26px;
+  text-transform: uppercase;
+  margin-bottom: 4.5rem;
+}
+
+.card .image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6.4rem;
+}
+
+.card .text {
+  max-width: 50.8rem;
+  width: 100%;
+}
+
+.card .text h6 {
+  margin-bottom: 0.8rem;
+}
+
+.card .text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: var(--gray-600);
+}
