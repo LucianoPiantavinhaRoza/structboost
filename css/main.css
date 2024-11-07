@@ -33,3 +33,70 @@ header nav ul li a {
 header nav ul li a:hover {
   opacity: 0.7;
 }
+
+.s-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding-top: 11.2rem;
+  overflow: hidden;
+}
+
+.s-hero::after {
+  content: '';
+  width: 100%;
+  height: 22rem;
+  background-color: var(--pink-10);
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+}
+
+.s-hero .text {
+  position: relative;
+  width: 100%;
+  max-width: 72rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 6.4rem;
+}
+
+.s-hero .text h1 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: -1.68px;
+}
+
+.s-hero .text h1::before { /* Cria um elemento HTML via CSS antes do início da tag */
+  position: absolute;
+  content: '';
+  width: 100%;
+  max-width: 60rem;
+  height: 2rem;
+  background: url("../imgs/line-tittle.svg") no-repeat center center;
+  left: 4rem;
+  bottom: -0.5rem;
+  z-index: -1;
+}
+
+.s-hero .text p {
+  max-width: 55.6rem;
+  margin: 0 auto;
+  letter-spacing: -0.54px;
+  margin-top: 2.4rem;
+  margin-bottom: 3.2rem;
+  color: var(--gray-300);
+}
+
+.s-hero .text .arrow {
+  position: absolute;
+  bottom: 1.7rem;
+  left: 5.5rem;
+}
+
+.s-hero .ilustra {
+  padding: 0 1.5rem;
+}
