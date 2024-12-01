@@ -70,7 +70,8 @@ header nav ul li a:hover {
   letter-spacing: -1.68px;
 }
 
-.s-hero .text h1::before { /* Cria um elemento HTML via CSS antes do início da tag */
+.s-hero .text h1::before {
+  /* Cria um elemento HTML via CSS antes do início da tag */
   position: absolute;
   content: '';
   width: 100%;
@@ -99,4 +100,22 @@ header nav ul li a:hover {
 
 .s-hero .ilustra {
   padding: 0 1.5rem;
+}
+
+.s-digital {
+  padding-top: 12.8rem;
+}
+
+.s-digital h3 {
+  max-width: 53.5rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 6.4rem;
+}
+
+.s-digital ul {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-800);
+  padding-bottom: 12.8rem;
 }
