@@ -119,3 +119,51 @@ header nav ul li a:hover {
   border-bottom: 1px solid var(--gray-800);
   padding-bottom: 12.8rem;
 }
+
+.s-art-front {
+  padding: 12.8rem 0;
+}
+
+.s-art-front .tittle-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6.4rem;
+}
+
+.s-art-front .tittle-text h3 {
+  font-weight: 600;
+  letter-spacing: -1.2px;
+}
+
+.s-art-front .tittle-text p {
+  color: var(--gray-600);
+  letter-spacing: -0.54px;
+  margin-top: 1.6rem;
+}
+
+.s-art-front .tittle-text .left {
+  max-width: 54rem;
+}
+
+.s-art-front .tittle-text .left p {
+  max-width: 45.2rem;
+}
+
+.s-art-front .tittle-text .right {
+  max-width: 42.9rem;
+}
+
+.s-art-front .all {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3.2rem;
+}
+
+.s-art-front .all .card:first-child{
+  grid-column: span 2;
+}
+
+.s-art-front .all .card .text p {
+  font-weight: 10;
+}
