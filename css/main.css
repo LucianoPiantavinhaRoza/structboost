@@ -78,13 +78,21 @@ header nav ul li a:hover {
   /* Cria um elemento HTML via CSS antes do início da tag */
   position: absolute;
   content: '';
-  width: 100%;
   max-width: 60rem;
   height: 2rem;
-  background: url("../imgs/line-tittle.svg") no-repeat center center;
+  background: url("../imgs/line-tittle.svg") no-repeat left center;
   left: 4rem;
   bottom: -0.5rem;
   z-index: -1;
+  animation: drawLine 1s 0.5s ease-in forwards;
+}
+
+@keyframes drawLine {
+  from {
+    width: 0;
+  } to {
+    width: 100%;
+  }
 }
 
 .s-hero .text p {
@@ -100,6 +108,17 @@ header nav ul li a:hover {
   position: absolute;
   bottom: 1.7rem;
   left: 5.5rem;
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateX(0px);
+  } 50% {
+    transform: translateX(15px);
+  } 100% {
+    transform: translate(0px);
+  }
 }
 
 .s-hero .ilustra {
